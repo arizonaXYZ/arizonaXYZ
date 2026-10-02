@@ -1,4 +1,10 @@
-## Hi there 👋
+<p align="center">
+  <img src="./vaporwave.svg" width="100%" alt="Jerson - vaporwave banner"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=26&duration=3000&pause=800&color=FF71CE&center=true&vCenter=true&width=500&lines=Hola%2C+soy+Jerson+%F0%9F%8C%B4;Web+design+%2B+automatizaci%C3%B3n;Game+dev+en+Godot+%F0%9F%8E%AE" alt="Typing SVG"/>
+</p>
 
 <!--
 **arizonaXYZ/arizonaXYZ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
