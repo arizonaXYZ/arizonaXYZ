@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=26&duration=3000&pause=800&color=FF71CE&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Arizona+%F0%9F%8C%B4;Game+design+%2B;Game+dev+en+Godot+%F0%9F%8E%AE" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=26&duration=3000&pause=800&color=FF71CE&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Arizona+%F0%9F%8C%B4;Game+design;Game+dev+en+Godot+%F0%9F%8E%AE" alt="Typing SVG"/>
 </p>
 
 <!--
