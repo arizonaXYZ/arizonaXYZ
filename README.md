@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./vaporwave.svg" width="100%" alt="Jerson - vaporwave banner"/>
+  <img src="./vaporwave.svg" width="100%" alt="Arizona - vaporwave banner"/>
 </p>
 
 <p align="center">
