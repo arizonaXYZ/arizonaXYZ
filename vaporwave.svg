@@ -14,7 +14,7 @@
       <stop offset="0.5" stop-color="#ff2975"/>
       <stop offset="1" stop-color="#8c1eff"/>
     </linearGradient>
-    <!-- Franjas del sol -->
+  
     <mask id="sunStripes">
       <rect x="0" y="0" width="800" height="260" fill="#fff"/>
       <rect x="300" y="122" width="200" height="3" fill="#000"/>
@@ -24,7 +24,7 @@
     </mask>
     <clipPath id="aboveHorizon"><rect x="0" y="0" width="800" height="170"/></clipPath>
     <clipPath id="belowHorizon"><rect x="0" y="170" width="800" height="90"/></clipPath>
-    <!-- Degradado animado del nombre -->
+   
     <linearGradient id="nameGrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="400" y2="0" spreadMethod="repeat">
       <stop offset="0" stop-color="#ff71ce"/>
       <stop offset="0.33" stop-color="#01cdfe"/>
@@ -50,10 +50,10 @@
     </style>
   </defs>
 
-  <!-- Cielo -->
+  
   <rect width="800" height="260" fill="url(#sky)"/>
 
-  <!-- Estrellas -->
+ 
   <g fill="#fff">
     <circle class="star" cx="80" cy="30" r="1.5"/>
     <circle class="star" cx="170" cy="70" r="1" style="animation-delay:-1s"/>
@@ -65,17 +65,17 @@
     <circle class="star" cx="760" cy="120" r="1" style="animation-delay:-1.8s"/>
   </g>
 
-  <!-- Sol -->
+  
   <g clip-path="url(#aboveHorizon)">
     <g class="sunWrap">
       <circle cx="400" cy="170" r="95" fill="url(#sun)" mask="url(#sunStripes)"/>
     </g>
   </g>
 
-  <!-- Suelo + cuadrícula -->
+  
   <rect x="0" y="170" width="800" height="90" fill="url(#ground)"/>
   <g clip-path="url(#belowHorizon)" stroke="#ff2bd6" stroke-width="1.5" opacity=".85">
-    <!-- líneas que convergen al horizonte -->
+    
     <line x1="400" y1="170" x2="-800" y2="260"/><line x1="400" y1="170" x2="-600" y2="260"/>
     <line x1="400" y1="170" x2="-400" y2="260"/><line x1="400" y1="170" x2="-200" y2="260"/>
     <line x1="400" y1="170" x2="0" y2="260"/><line x1="400" y1="170" x2="100" y2="260"/>
@@ -85,7 +85,7 @@
     <line x1="400" y1="170" x2="800" y2="260"/><line x1="400" y1="170" x2="1000" y2="260"/>
     <line x1="400" y1="170" x2="1200" y2="260"/><line x1="400" y1="170" x2="1400" y2="260"/>
     <line x1="400" y1="170" x2="1600" y2="260"/>
-    <!-- líneas horizontales que avanzan hacia ti -->
+    
     <g id="hlines">
       <line x1="0" x2="800" y1="170" y2="170">
         <animate attributeName="y1" values="170;262" dur="3s" begin="0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines="0.6 0 1 1"/>
@@ -113,13 +113,13 @@
       </line>
     </g>
   </g>
-  <!-- Brillo del horizonte -->
+
   <rect x="0" y="168" width="800" height="3" fill="#ff71ce" filter="url(#glow)"/>
 
-  <!-- Subtítulo -->
+
   <text x="400" y="42" text-anchor="middle" class="sub">web design / game dev</text>
 
-  <!-- Nombre con glitch cromático -->
+
   <text x="400" y="128" text-anchor="middle" class="name ghostA">ARIZONA</text>
   <text x="400" y="128" text-anchor="middle" class="name ghostB">ARIZONA</text>
   <text x="400" y="128" text-anchor="middle" class="name" fill="url(#nameGrad)" filter="url(#glow)">ARIZONA</text>
